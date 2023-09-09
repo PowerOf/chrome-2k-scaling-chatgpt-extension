@@ -4,4 +4,4 @@ This is a simple extension that increases the webchat size to accommodate a Full
 
 Features:
 - container size increased to 75rem if screen size is at least 1600px
-- container max size restriction removed for windows above 1536px width
+- container max size restriction removed for window sizes above 1536px width
