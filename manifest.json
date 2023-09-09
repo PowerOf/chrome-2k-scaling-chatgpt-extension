@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "2k Scaling fix for openai web ChatGPT",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://chat.openai.com/*",
+        "http://chat.openai.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*",
+                "http://chat.openai.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
