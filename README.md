@@ -9,7 +9,7 @@ Features:
 This is not licenced and is free to be distributed or used.
 
 To use, download the code and load it as an unpacked extension in your chrome browser. 
-If you need any advice do a quick google search on how to load this.
+If you need any advice on how to do that, do a quick google search: "load unpacked extension". And you will find more information on that.
 
 No I will probably not make this available on the official extension store.
 If it breaks in the future, I might or I might not keep this updated.
